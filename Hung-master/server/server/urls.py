@@ -19,4 +19,9 @@ from web1 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('phone', views.phone),
+    path('Investment', views.Investment),
+    path('Jobs', views.Jobs),
+    path('PC', views.PC),
+    path('Sports', views.Sports),
 ]
